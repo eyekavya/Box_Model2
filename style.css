@@ -19,6 +19,7 @@ header {
   background-image: linear-gradient(to top, #bdc3c7, #2c3e50);
   box-shadow: 2px 2px 2px 2px #2c3e50;
 }
+
 h1::selection {
   background: red;
 }
