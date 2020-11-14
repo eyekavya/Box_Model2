@@ -1,7 +1,26 @@
-header {
-  text-align: center;
-  font-size: 50px;
-  color: black;
-  font-family: 'Playfair Display', serif;
+body {
+  background-color: #bdc3c7;
+  overflow-x: hidden;
 }
 
+.wrapper {
+  max-width: 1166px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+
+header {
+  text-align: center;
+  font-size: 100px;
+  color: black;
+  font-family: "Playfair Display", serif;
+  padding: 160px 0;
+  background-image: linear-gradient(to top, #bdc3c7, #2c3e50);
+  box-shadow: 2px 2px 2px 2px #2c3e50;
+}
+h1::selection {
+  background: red;
+}
+.intro-container {
+}
