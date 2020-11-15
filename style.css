@@ -17,11 +17,32 @@ header {
   font-family: "Playfair Display", serif;
   padding: 160px 0;
   background-image: linear-gradient(to top, #bdc3c7, #2c3e50);
-  box-shadow: 2px 2px 2px 2px #2c3e50;
+  box-shadow: 1px 1px 10px 1px #2c3e50;
 }
 
 h1::selection {
   background: red;
 }
-.intro-container {
+
+.outer {
+  height:300px;
+  width: ;
+}
+
+.topic {
+  /* height: 100px;
+  width: 200px; */
+  margin: 0;
+  padding:  40px 40px;
+  background: #00fbe6;
+  display: inline-block;
+  transform: rotate(270deg);
+}
+
+.description {
+  height: 200px;
+  width: 500px;
+  background: #1a7988;
+  display: inline-block;
+  /* margin-top: auto; */
 }
